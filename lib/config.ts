@@ -3,7 +3,8 @@ export const _siteDetails = {
   domain: "cleaners.rodelahomes.com.ng",
   desc: "Professional cleaning company in Nigeria",
   menuLinks: [
-    { label: "FAQs", link: "/#faqs" },
-    { label: "How it works", link: "/#how-it-works" },
+    { label: "Our Services", link: "/#services" },
+    { label: "About Us", link: "/#about-us" },
+    { label: "Book Now", link: "https://wa.me/+2348060900713", extra: true },
   ],
 };

@@ -1,10 +1,10 @@
-import Link from 'next/link'
-import React from 'react'
+import Link from "next/link";
+import React from "react";
 
 export default function Logo() {
   return (
-    <Link href="/">
-        Rodela <span className='text-primary'>Cleaners</span>
+    <Link href="/" className="font-semibold tracking-tight">
+      Rodela <span className="text-primary">Cleaners</span>
     </Link>
-  )
+  );
 }
