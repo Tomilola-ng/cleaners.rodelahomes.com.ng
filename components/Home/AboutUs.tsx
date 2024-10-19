@@ -6,7 +6,7 @@ import { WHATSAPP_ICON } from "@/lib/icons";
 export default function AboutUsSection() {
   return (
     <section
-      id="#about-us"
+      id="about-us"
       className="bg-primary text-primary-foreground py-16 mt-8 md:mt-4 pSm"
     >
       <div className="container mx-auto px-4">
