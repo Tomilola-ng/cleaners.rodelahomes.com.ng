@@ -1,10 +1,11 @@
-
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
+
 import "./globals.css";
-import Header from "@/components/Header";
 import { _siteDetails } from "@/lib/config";
 
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const myFont = Poppins({
   subsets: ["latin"],
@@ -12,7 +13,7 @@ const myFont = Poppins({
 });
 
 export const metadata: Metadata = {
-  title:  _siteDetails.name,
+  title: _siteDetails.name,
   description: _siteDetails.desc,
 };
 
@@ -23,11 +24,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${myFont.className}`}
-      >
+      <body className={`${myFont.className}`}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

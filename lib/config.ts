@@ -7,4 +7,5 @@ export const _siteDetails = {
     { label: "About Us", link: "/#about-us" },
     { label: "Book Now", link: "https://wa.me/+2348060900713", extra: true },
   ],
+  
 };
