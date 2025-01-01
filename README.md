@@ -1,2 +1,3 @@
-# nextjs14-shadcn
-My NextJS Template, using Shadcn UI curved to taste.
+# 🍀 A Cleaning Agency For My Mom 💝
+
+DM me for yours, I might do it for free.
